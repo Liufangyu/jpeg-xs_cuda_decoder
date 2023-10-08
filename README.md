@@ -14,7 +14,7 @@ Due to time constraints, the makefile has not been written yet. Please use the f
 nvcc bitpacking.c budget.c buf_mgmt.c data_budget.c dwt.c gcli_budget.c gcli_methods.c ids.c image.c mct.c nlt.c packing.c precinct.c precinct_budget.c precinct_budget_table.c pred.c predbuffer.c quant.c rate_control.c sb_weighting.c sig_flags.c sigbuffer.c version.c xs_config.c xs_config_parser.c xs_dec.c xs_markers.c packing.cu xs_dec_main.c file_io.c cmdline_options.c file_sequence.c image_open.c v210.c rgb16.c yuv16.c planar.c uyvy8.c argb.c mono.c ppm.c pgx.c helpers.c mct.cu nlt.cu dwt.cu -o jxs_decoder -w -rdc=true -gencode=arch=compute_XX,code=compute_XX --default-stream per-thread
 ```
 
-Remember to modify the **“compute_ XX. Code=compute_ XX“** to  the target machine.
+Remember to modify the **“compute_ XX, Code=compute_ XX“** to  the target machine.
 
 ## How to use
 
